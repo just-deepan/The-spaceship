@@ -48,7 +48,8 @@ async function checkWeather(city_name){
     
         displayWeather.style.display = 'block'
         hw.style.display = 'flex'
-    
+        error.style.display = 'none'
+        
     }
 
 }
